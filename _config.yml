@@ -46,9 +46,9 @@ menu:
 # 站点运行开始时间.
 time:
   enable: false
-  year: 2019 # 年份
-  month: 06 # 月份
-  date: 28 # 日期
+  year: 2020 # 年份
+  month: 02 # 月份
+  date: 14 # 日期
   hour: 00 # 小时
   minute: 00 # 分钟
   second: 00 # 秒
@@ -137,11 +137,11 @@ socialLink:
   github:  https://github.com/imcoddy
   email: imcoddy@gmail.com
   facebook: # https://www.facebook.com/xxx
-  twitter: imcoddy
+  twitter: https://www.twitter.com/imcoddy
   qq: #1181062873
   weibo: # https://weibo.com/xxx
-  zhihu: # https://www.zhihu.com/xxx
-  rss: true # true、false
+  zhihu: https://www.zhihu.com/people/imcoddy
+  rss: false # true、false
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -206,8 +206,8 @@ clicklove:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /images/avatar.png
-  career: Software Engineer
-  introduction: If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
+  career: Metanet.Press 主编
+  introduction: Bitcoin 粉丝，BSV 骷髅会群主，Metanet 研究员
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -307,15 +307,15 @@ livere:
 # To use it, activate the configuration item and set appId and appKey.
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
-  enable: false
-  appId:
-  appKey:
-  notify: false
+  enable: true
+  appId: cOEhusjIvF2miHty5CGF9tXD-MdYXbMMI
+  appKey: Yzbo1Aw1oSMT6cjGi6nLe9k0
+  notify: true
   verify: false
   visitor: true
   avatar: 'mm' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
   pageSize: 10
-  placeholder: 'just go go' # Comment Box placeholder
+  placeholder: '客官，留个言吧~' # Comment Box placeholder
   background: /medias/comment_bg.png
 
 # The configuration of the MiniValine comment module is not activated by default.
@@ -406,6 +406,7 @@ libs:
     gitalk: /libs/gitalk/gitalk.min.js
     valine: /libs/valine/Valine.min.js # 若想保持最新版，请替换为 https://unpkg.com/valine/dist/Valine.min.js  默认为 /libs/valine/Valine.min.js
     minivaline: https://cdn.jsdelivr.net/npm/minivaline/dist/MiniValine.min.js
+    moneyButton: https://www.moneybutton.com/moneybutton.js
     jqcloud: /libs/jqcloud/jqcloud-1.0.4.min.js
     tocbot: /libs/tocbot/tocbot.min.js
     canvas_nest: /libs/background/canvas-nest.js
@@ -463,7 +464,7 @@ featureImages:
 # pay（付费转载 pay for reprinting）
 reprint:
   enable: true # whether enable reprint section 是否启用“转载规则限定模块”
-  default: cc_by
+  default: cc_by_nc
 
 # DaoVoice online contact
 daovoice:
