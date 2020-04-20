@@ -56,3 +56,15 @@
         transform: translate(0, 0.5px) rotate(1.5deg);
     }
 }
+
+.bg-color {
+  background-image: linear-gradient(to right, #E8B21F 0%, #E8B21F 100%);
+}
+
+header .brand-logo .logo-span {
+  font-size: 1.25rem;
+}
+
+.cover-btns{
+  top: 18vh;
+}
