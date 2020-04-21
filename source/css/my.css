@@ -68,3 +68,7 @@ header .brand-logo .logo-span {
 .cover-btns{
   top: 18vh;
 }
+
+.card .card-image img {
+  opacity: 0.4;
+}

@@ -70,7 +70,7 @@ dream:
   enable: true
   showTitle: true
   title: 欢迎访问本站
-  text: "本号是 BSV 骷髅会群主「邱少贤撩 Metanet 」的大型现场，保证让各位看官看得高潮迭起，欲罢不能。如果您是第一次访问本站，建议您先到 https://metanet.press/rebirth/ 上了解「比特币重生计划」的来龙去脉。"
+  text: "本号是 BSV 骷髅会群主「邱少贤撩 Metanet 」的大型现场，保证让各位看官看得高潮迭起，欲罢不能。如果您是第一次访问本站，建议您先点击右上角了解下「比特币重生计划」哦。"
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
@@ -96,15 +96,15 @@ music:
 # 是否在首页显示视频.
 video:
   enable: false
-  showTitle: true
+  showTitle: false
   title: 精彩视频
-  url: # 必填
+  url: https://youtu.be/hXUOSCGfuJA
   pic:
   thumbnails:
   height: # 如：400
   autoplay: false # 是否自动播放
   theme: '#42b983'
-  loop: false # 是否循环播放
+  loop: true # 是否循环播放
   preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
   volume: 0.7
 
@@ -191,11 +191,11 @@ mathjax:
 # 文章信息--若要开启文章字数统计，需要安装 hexo-wordcount 插件，安装命令: `npm i --save hexo-wordcount`
 postInfo:
   date: true # 发布日期
-  update: false # 更新日期
-  wordCount: false # 文章字数统计
-  totalCount: false # 站点总文章字数
-  min2read: false # 文章阅读时长
-  readCount: false # 文章阅读次数
+  update: true # 更新日期
+  wordCount: true # 文章字数统计
+  totalCount: true # 站点总文章字数
+  min2read: true # 文章阅读时长
+  readCount: true # 文章阅读次数
 
 # Whether to activate the 'love' effect of clicking on the page.
 # 是否激活点击页面的'爱心'效果，默认激活.
@@ -487,7 +487,7 @@ canvas_nest:
 
 # 背景静止彩带.
 ribbon:
-  enable: false
+  enable: true
   size: 150 # 彩带大小, 默认: 90.
   alpha: 0.6 # 彩带透明度 (0 ~ 1), 默认: 0.6.
   zIndex: -1 # 背景的z-index属性，css属性用于控制所在层的位置, 默认: -1.
@@ -501,7 +501,7 @@ ribbon_dynamic:
 # 支持顺序，可选项目为twitter, facebook, google, qq, qzone, wechat, weibo, douban, linkedin.
 sharejs:
   enable: true
-  sites: twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin
+  sites: twitter,facebook,qq,qzone,wechat,weibo,douban,linkedin
 
 # addthis文章分享模块.
 addthis:
