@@ -17,7 +17,7 @@ menu:
     url: /about
     icon: fas fa-user-circle
   Rebirth:
-    url: /rebirth
+    url: ../rebirth
     icon: fab fa-btc
   # Contact:
   #   url: /contact
@@ -505,8 +505,8 @@ sharejs:
 
 # addthis文章分享模块.
 addthis:
-  enable: false
-  pubid:  # 前往https://www.addthis.com/获取
+  enable: true
+  pubid: ra-5ea01bbd5f86944c
 
 # 打字效果副标题.
 # 如果有符号 ‘ ，请在 ’ 前面加上 \

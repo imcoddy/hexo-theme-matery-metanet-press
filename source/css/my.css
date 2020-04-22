@@ -72,3 +72,7 @@ header .brand-logo .logo-span {
 .card .card-image img {
   opacity: 0.4;
 }
+
+footer .copy-right {
+  color: #eee;
+}
