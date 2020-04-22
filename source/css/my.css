@@ -76,3 +76,6 @@ header .brand-logo .logo-span {
 footer .copy-right {
   color: #eee;
 }
+
+sub, sup {
+  font-size: 85%;
