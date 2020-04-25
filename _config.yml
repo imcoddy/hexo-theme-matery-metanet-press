@@ -135,11 +135,11 @@ indexbtn:
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
   github:  https://github.com/imcoddy
-  email: imcoddy@gmail.com
+  email: #
   facebook: # https://www.facebook.com/xxx
   twitter: https://www.twitter.com/imcoddy
   qq: #1181062873
-  weibo: # https://weibo.com/xxx
+  weibo: https://weibo.com/imcoddy
   zhihu: https://www.zhihu.com/people/imcoddy
   rss: false # true、false
 
