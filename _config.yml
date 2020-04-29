@@ -69,8 +69,8 @@ cover:
 dream:
   enable: true
   showTitle: true
-  title: 欢迎访问本站
-  text: "本号是 BSV 骷髅会群主「邱少贤撩 Metanet 」的大型现场，保证让各位看官看得高潮迭起，欲罢不能。如果您是第一次访问本站，建议您先点击右上角了解下「比特币重生计划」哦。"
+  title: 邱少闲聊Metanet
+  text: "这里是 BSV 骷髅会群主「邱少贤撩Metanet」的大型现场，欢迎各位扫码关注下面的公众号，保证让各位看官看得高潮迭起，欲罢不能。如果您是第一次访问本站，建议您先点击右上角了解下「比特币重生计划」哦。"
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
@@ -373,7 +373,7 @@ baiduAnalytics:
   id:
 
 # 百度搜索资源平台提交链接
-baiduPush: true
+baiduPush: false
 
 # The used front-end library can be replaced with the corresponding CDN address as needed,
 # If the specific version is not specified below, you can use the latest version.

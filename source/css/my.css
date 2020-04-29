@@ -169,3 +169,9 @@ sub, sup {
 .breadcrumb li a:hover:after {
   border-left-color: #ffc107 !important;
 }
+
+.wechat-qrcode img {
+  max-width: 400px;
+  opacity: 1;
+  padding-top: 10px;
+}
